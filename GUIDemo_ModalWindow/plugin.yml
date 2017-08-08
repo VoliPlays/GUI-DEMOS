@@ -1,0 +1,15 @@
+name: GUIDemoModalWIndow
+main: CKylin\GUIDemoModalWIndow
+version: 1.0.0
+api: [1.0.0]
+load: POSTWORLD
+author: CKylin
+commands:
+ showmw:
+  description: "..."
+  usage: "/showmw"
+  permission: GUIDemoModalWIndow.cmd.main
+permissions:
+ GUIDemoModalWIndow.cmd.main:
+  description: "showmw"
+  default: true
